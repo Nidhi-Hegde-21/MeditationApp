@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1E6FF"
+    tools:context=".welcome">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="480dp"
+        android:layout_height="799dp"
+        android:layout_marginBottom="196dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/meditation" />
+
+    <TextView
+        android:id="@+id/txtview"
+        android:layout_width="320dp"
+        android:layout_height="128dp"
+
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="416dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="187dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="Welcome to"
+        android:textAlignment="center"
+        android:textColor="#DC582A"
+        android:textSize="55sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.795" />
+
+    <TextView
+        android:id="@+id/Redirect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="508dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="143dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Calmify"
+        android:textAlignment="center"
+        android:textColor="#DC582A"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.748" />
+
+
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="119dp"
+        android:layout_marginTop="630dp"
+        android:layout_marginEnd="119dp"
+        android:layout_marginBottom="49dp"
+        android:text="Get Started"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
